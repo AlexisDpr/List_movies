@@ -1,0 +1,32 @@
+.movie
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-poster 
+{
+    max-width: 25%;
+    height: auto;
+}
+
+.movie-title,
+
+.movie-year 
+{
+    text-align: center;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#movieModalPoster {
+    max-width: 100%;
+    height: auto;
+}
